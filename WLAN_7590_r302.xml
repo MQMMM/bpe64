@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>7590-r302</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>373539302D72333032</hex>
+			<name>7590-r302</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB0100000047319D64C525934F8F8003BB90C2E8E0000000000200000000001066000000010000200000007B8384DBF8DBF7BF5CB243140DEDBA483E4F059FFA2ACDC3742088469699D108000000000E80000000020000200000004BE98727BA99F139BABF9FB3D7C1A47164303633CDF7765327592AFCA31A6CA0100000001E0A7F5669D313593B53B5861E83DADE4000000083A24CC0169BC0FD647A2160073404047213522E7DC7CF984EC971363FDE5FA803560994205B93C404C476F522644B9B1DFCA6D69E0D876386D7EAEE5D534294</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>1233536078</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>
